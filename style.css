@@ -85,6 +85,7 @@
 
 .upper__btn:hover {
     transform: scale(1.1);
+    transition: all .3s ease;
 }
 
 .upper__btn:active {
@@ -235,10 +236,12 @@
 
 .middle__search--btn:hover {
         background: #a55a0b;
+        transition: all .3s ease;
 }
 
 .middle__search--btn:active {
         background: #794208;
+        transition: all .3s ease;
 }
 
 .middle__search--select {
@@ -313,6 +316,7 @@
 
 .middle--block:hover {
     transform: scale(1.1);
+    transition: all .3s ease;
 }
 
 .middle--block:nth-child(1):before {
