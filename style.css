@@ -49,6 +49,10 @@
     text-decoration: none;
 }
 
+.upper__menu-element--link:hover {
+    color: #978f8f;
+}
+
 .upper__lang-select {
     position: relative;
     padding-top: 8px;
@@ -56,6 +60,10 @@
     padding-right: 23px;
     padding-left: 24px;
     margin-left: 42px;
+}
+
+.upper__lang-select:hover {
+    color: #978f8f;
 }
 
 .upper__btn {
@@ -73,6 +81,14 @@
     margin-right: 43px;
     margin-left: 43px;
     border-radius: 4px;
+}
+
+.upper__btn:hover {
+    transform: scale(1.1);
+}
+
+.upper__btn:active {
+    background: #3e8654;
 }
 
 .upper__lang-select-list {
@@ -190,7 +206,7 @@
         box-sizing: border-box;
         height: 41px;
         color: black;
-        font-family: "Nunito";
+        font-family: "PT Sans";
         font-size: 16px;
         font-weight: bold;
         padding-top: 3px;
@@ -199,7 +215,7 @@
         border-radius: 6px 0px 0px 6px;
         background: white;
         border: solid 1px #c5ced5;
-        border-right: none
+        border-right: none;
 }
 
 .middle__search--btn {
@@ -215,6 +231,14 @@
         background: #fe8a0c;
         margin-left: 10px;
         font-weight: bold;
+}
+
+.middle__search--btn:hover {
+        background: #a55a0b;
+}
+
+.middle__search--btn:active {
+        background: #794208;
 }
 
 .middle__search--select {
@@ -283,6 +307,12 @@
     padding-top: 81px;
     text-align: center;
     box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.1);
+}
+
+  
+
+.middle--block:hover {
+    transform: scale(1.1);
 }
 
 .middle--block:nth-child(1):before {
