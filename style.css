@@ -491,7 +491,6 @@
     }
 
     .m-header__text-block {
-        width: 100%;
         display: flex;
         font-family: "Nunito";
         color: white;
@@ -1024,6 +1023,7 @@
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    
     .middle__search--select {
         box-sizing: border-box;
         font-family: "Nunito";
@@ -1067,5 +1067,8 @@
     display: none;
 }
 
-
+.m-header__big-text,
+.m-header__sml-text {
+    width: 100%;
+}
     }
